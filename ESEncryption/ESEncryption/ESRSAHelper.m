@@ -247,7 +247,7 @@ static NSData *base64_decode(NSString *str){
                                &outlen
                                );
         if (status != 0) {
-            NSLog(@"SecKeyEncrypt fail. Error Code: %d", status);
+//            NSLog(@"SecKeyEncrypt fail. Error Code: %d", status);
             ret = nil;
             break;
         }else{
@@ -286,7 +286,7 @@ static NSData *base64_decode(NSString *str){
                                &outlen
                                );
         if (status != 0) {
-            NSLog(@"SecKeyEncrypt fail. Error Code: %d", status);
+//            NSLog(@"SecKeyEncrypt fail. Error Code: %d", status);
             ret = nil;
             break;
         }else{
