@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ESEncryption"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "encryption for iOS"
 
   # This description is used to generate tags and improve search results.
@@ -134,6 +134,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "GTMBase64", "1.0.0"
-  s.dependency "ESUtils"
+  s.dependency "ESUtils", "~> 0.0.3"
 
 end
